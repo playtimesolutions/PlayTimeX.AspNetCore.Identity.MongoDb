@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Company>Playtime Solutions</Company>
+    <Copyright>Playtime Solutions</Copyright>
+    <Authors>Peter St Clair;Playtime Solutions</Authors>
+    <Description>AspNetCore Identity provider that uses MongoDB</Description>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>netstandard2.1;net5.0</TargetFrameworks>
+    <PackageId>PlayTimeX.AspNetCore.Identity.MongoDb</PackageId>
+    <PackageTags>AspNetCore;Identity;Membership;MongoDB</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="5.0.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.1" />
+    
+  </ItemGroup>
+
+</Project>
